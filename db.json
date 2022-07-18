@@ -1,0 +1,57 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "Users": [
+    {
+      "Username":  "suraj shukla",
+      "email": "suraj@gmail.com",
+      "mobileno": "1234567890",
+      "password": "123@suraj",
+      "gender": "Male"
+    },
+
+{
+  "Username":   "bhavesh nair",
+      "email": "bhavesh@gmail.com",
+      "mobileno": "7654328964",
+      "password": "123@bhavesh",
+      "gender": "Male"
+
+},
+{
+  "Username":   "jay sharma",
+      "email": "jay@gmail.com",
+      "mobileno": "7654890234",
+      "password": "rth@jay",
+      "gender": "Male"
+
+},
+{
+  "Username":   "prachi solo",
+      "email": "prachi@gmail.com",
+      "mobileno": "7654868234",
+      "password": "praci@jay",
+      "gender": "Female"
+
+},
+{
+  "Username":   "nikita",
+      "email": "nikita@gmail.com",
+      "mobileno": "7564890234",
+      "password": "nikita@123",
+      "gender": "Female"
+
+}
+
+
+
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

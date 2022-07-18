@@ -1,0 +1,45 @@
+
+                <h4 class="title">User Information</h4>
+              
+              <div class="col-sm-9 col-xs-12 text-right">
+                <div class="btn_group">
+                  <input
+                    type="text"
+                    required
+                    name="searchTerm"
+                    autocomplete="off"
+                    [(ngModel)]="searchTerm"
+                    class="form-control form-control-lg"
+                    placeholder="Search By Username And Email"
+                    (keyup)="onChange()"
+                  />
+                </div>
+              </div>
+            
+        
+          <br>
+          <div class="panel-body table-responsive">
+            <table class="table">
+              <thead class="hello">
+                <tr>
+                  <th>UserName &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                  
+                  <th>Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                  <th>Mobile No.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                  <th>Gender &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                  <th>password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let item of data">
+                  <th scope="row">{{ item.Username }}</th>
+                  <td>{{ item.email }}</td>
+                  <td>{{ item.mobileno }}</td>
+                  <td>{{ item.gender }}</td>
+                  <td>{{ item.password }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+       
+       
